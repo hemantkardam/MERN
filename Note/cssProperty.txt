@@ -1,0 +1,6 @@
+*********** Property *****************
+Margin - Space  between two elements.
+Padding - Space inside elements (space between content & Border of the element.)
+Box-sizing :-  it is used for fixing the width & height of the elements.
+Text-align :- For alignment of content in block element.
+ 
