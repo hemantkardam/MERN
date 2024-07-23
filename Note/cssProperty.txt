@@ -1,6 +1,26 @@
 *********** Property *****************
+
+------------ Selector in CSS -------------------------
+        Simple Selector -: Name , Id , Class
+        Group  Selector  -: all selector used with the help of comma (,) ex:- h1 , p , div { styling }
+        Universal selector -: " * " this is universal selector for all tags take style.
+        Attribute selector -: select by the Attributeof the element
+        Pseudo class -:
+        Pseudo Element -:
+        Combinator selector -:
+
+
 Margin - Space  between two elements.
 Padding - Space inside elements (space between content & Border of the element.)
 Box-sizing :-  it is used for fixing the width & height of the elements.
 Text-align :- For alignment of content in block element.
  
+ Position Property
+ 1. Static :- Fixed the element on the Position.
+ 2. Relative :- To move from the original Position.
+ 3. Absolute :- to stick with the parent top.
+ 4. Sticky :-
+ 5. Fixed :-
+
+(interview Question ) Note :- diff b/w Absolute & Relative ?
+In Relative the element move from the previous original Position and in Absolute first it stcik with our parent then move.

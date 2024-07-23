@@ -1,0 +1,14 @@
+button{
+    padding: 20px 40px;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: 1000;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+h1{
+    position: fixed;
+    bottom: 0px;
+    left: 1040px;
+}
