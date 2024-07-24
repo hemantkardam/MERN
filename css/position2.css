@@ -7,6 +7,25 @@ button{
     top: 0px;
     bottom: 0px;
 }
+/* This property used as a same sequence  */
+    /* On unvisited */
+    button:link{
+        color: darksalmon;
+    }
+    /* On visited */
+    button:visited{
+        color: rebeccapurple;
+    }
+    /* On Hover */
+    button:hover{
+        padding: 50px 50px;
+        background-color: cadetblue;
+        color: black;
+    }
+    /* On Click */
+    button:active{
+        color: aliceblue;
+    }
 h1{
     position: fixed;
     bottom: 0px;
