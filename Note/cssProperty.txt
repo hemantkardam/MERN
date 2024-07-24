@@ -5,7 +5,7 @@
         Group  Selector  -: all selector used with the help of comma (,) ex:- h1 , p , div { styling }
         Universal selector -: " * " this is universal selector for all tags take style.
         Attribute selector -: select by the Attributeof the element
-        Pseudo class -:
+        Pseudo class -: 
         Pseudo Element -:
         Combinator selector -:
 
@@ -15,7 +15,7 @@ Padding - Space inside elements (space between content & Border of the element.)
 Box-sizing :-  it is used for fixing the width & height of the elements.
 Text-align :- For alignment of content in block element.
  
- Position Property
+----------- Position Property -------------
  1. Static :- Fixed the element on the Position.
  2. Relative :- To move from the original Position.
  3. Absolute :- to stick with the parent top.
@@ -24,3 +24,32 @@ Text-align :- For alignment of content in block element.
 
 (interview Question ) Note :- diff b/w Absolute & Relative ?
 In Relative the element move from the previous original Position and in Absolute first it stcik with our parent then move.
+
+---------- Display Property ---------------
+Inline :- its Property used for a to convert a block element into inline element.
+Block :-its Property used for a to convert a inline element into Block element.
+None :- To hide the element and content.
+Visibility Hidden :- To hide the element and content.
+Flex :- its help to provide flexibility in element.
+
+
+(interview Question ) Note :- diff b/w None & Hidden item ?
+In none its hide & remove our space and vacant the space but in Visibility hidden it remove but not remove our space & cover it.
+
+---------- Justify-content ----------------
+Imp :- For a horizontal
+Space-between 
+space-around 
+centre
+space-evenly
+
+--------- Align-items ------------------
+Imp :- For a Vertical
+centre
+
+flex-direction
+flex-wrap
+flex-grow
+flex-shrink
+flex-flow is the shortened Property of flex-direction &  flex-wrap.
+Order Property :- for a give a sequence.
