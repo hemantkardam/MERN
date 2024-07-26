@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.div1{
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(24, 247, 24, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+p{
+    margin-top: 10px;
+    font-size:x-small;
+}
+button{
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 5px ;
+    width: 150px;
+}
