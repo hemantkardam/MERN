@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*  Descendant selector ( > ) */
+        div > p{
+            color: blueviolet;
+        }
+
+        /* Child selector (space b/w two elements) */
+        div p{
+            color: brown;
+        }
+        /* General sibling selector ( ~ )*/
+        div ~ span{
+            color: seagreen;
+        }
+        /* Adjacent sibling selector ( +  )*/
+        div + span{
+            color: saddlebrown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptate provident rerum minus adipisci? Asperiores eligendi explicabo labore odit velit. Cum corporis nemo dolore laborum autem repellat eligendi ratione voluptatem?</p>
+        <span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat deserunt minus hic, aut nostrum adipisci recusandae omnis expedita necessitatibus! Fugit molestiae labore libero error pariatur autem sequi, distinctio delectus ducimus!</p>
+        </span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptate provident rerum minus adipisci? Asperiores eligendi explicabo labore odit velit. Cum corporis nemo dolore laborum autem repellat eligendi ratione voluptatem?</p>
+        <span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat deserunt minus hic, aut nostrum adipisci recusandae omnis expedita necessitatibus! Fugit molestiae labore libero error pariatur autem sequi, distinctio delectus ducimus!</p>
+        </span>
+    </div>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit ipsum consectetur deleniti eos impedit, doloremque doloribus assumenda, ad consequatur nesciunt aperiam dolore obcaecati dolorem possimus repudiandae quia. Tenetur, assumenda sunt.</span>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae voluptate dolore esse maxime, reiciendis ratione minima nam adipisci saepe quasi earum molestiae dicta maiores iste vero quae voluptatem ad? </span>
+</body>
+</html>
