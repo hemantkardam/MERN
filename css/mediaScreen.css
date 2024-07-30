@@ -1,0 +1,15 @@
+ /* Max width & Min width   */
+ /* Max Height & Min Height */
+
+div{
+    height: 100px;
+    min-width: 400px;
+    background-color: firebrick;
+}
+/* Use for a create a responsive website. */
+@media screen and (min-width:568px) and ( max-width:980px) {
+    div{
+        height: 200px;
+        background-color: darkcyan;
+    }
+}
