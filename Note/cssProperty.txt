@@ -6,8 +6,8 @@
         Universal selector -: " * " this is universal selector for all tags take style.
         Attribute selector -: select by the Attributeof the element
         Pseudo class -: 
-        Pseudo Element -:
-        Combinator selector -:
+        Pseudo Element -: syntax selector::Property{ Property } Example(p::after{ content: '💋💖' ; })
+        Combinator selector -: descendant selector ( > ), child selector ( space b/w two element), general sibling selector , adjacent sibling selector
 
 
 Margin - Space  between two elements.
@@ -53,3 +53,8 @@ flex-grow
 flex-shrink
 flex-flow is the shortened Property of flex-direction &  flex-wrap.
 Order Property :- for a give a sequence.
+
+----------- Transition ---------------
+used for smoothly shift between two Property
+Transition:width 2s,(Property timing).
+
