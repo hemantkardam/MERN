@@ -124,4 +124,3 @@
 // else{
 //         console.log("You are not eligible for voting.");
 // }
-
