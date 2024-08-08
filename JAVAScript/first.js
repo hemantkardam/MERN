@@ -64,8 +64,9 @@
         // variable_name.charAt(indexing_no) - for checking a which charcter store on its indexing.
         // variable_name.split(where you want split it) - to split a word letter etc.
         // variable_name.concat(second_variable_name,third_variable_name) - for adding all strings in one variable. 
-        //
-
+        
+// 2. Array - 
+        
 //      Operators -
 
         // Mathametical/Arithematic - addition(+) Subtraction(-) etc.
