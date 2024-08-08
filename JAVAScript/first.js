@@ -65,9 +65,10 @@
         // variable_name.split(where you want split it) - to split a word letter etc.
         // variable_name.concat(second_variable_name,third_variable_name) - for adding all strings in one variable. 
         
-// 2. Array - 
+// 2. Array - array is datatype which stored any datatype values in it.
+        // Initialize - let variable_name = [value,value,value];
         
-//      Operators -
+//--------- Operators -------------------------
 
         // Mathametical/Arithematic - addition(+) Subtraction(-) etc.
         // Logical - && , || etc.
