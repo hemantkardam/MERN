@@ -10,3 +10,5 @@ else if(a<=0){
 else{
     console.log("You are not eligible for voting.");
 }
+
+
