@@ -2,6 +2,7 @@ const prompt = require('prompt-sync')()
 
 let a=prompt('Enter your marks :');
 
+
 if(a<=100 && a>90){
     console.log('You achieve a 9 Cgpa.');
 }
