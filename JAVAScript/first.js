@@ -11,7 +11,6 @@
 // console.log("clg Command for shortend.")
 // console.log("click clg then enter and console.log is enter")
 
-
 // var n="Hemant";
 // var n="rahul";
 // console.log(n)
