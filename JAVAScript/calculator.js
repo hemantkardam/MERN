@@ -7,7 +7,6 @@ const num2=parseFloat(prompt('Enter a num2 : '));
 const Operator=prompt('Enter a Operator : ');
 
 
-
 // switch(Operator){
 //     case '+':console.log(`num1+" " +Operator+" " num2 +" " + "="+"  "`);console.log(num1+num2);break;;
 //     case '-':console.log(num1-num2);break;
