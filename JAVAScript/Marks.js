@@ -11,7 +11,6 @@ else if(a<=90 && a>80){
     console.log('You achieve a 8 Cgpa.');
 }
 
-
 else if(a<=80 && a>70){
     console.log('You achieve a 7 Cgpa.');
 }
