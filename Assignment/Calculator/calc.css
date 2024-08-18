@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    /* align-items: center; */
+}
+table{
+    background-color: black;
+}
+button{
+    background-color:rgb(1, 150, 1);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+}
+input{
+    height: 27px;
+    width: 165px;
+}
+
+.col4{
+    width: 40px;
+    height: 30px;
+}
+
+.col2,.col3,.col1{
+    margin: 0px;
+    width: 55px;
+    height: 30px;
+}
