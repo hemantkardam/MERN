@@ -10,6 +10,7 @@
         Combinator selector -: descendant selector ( > ), child selector ( space b/w two element), general sibling selector , adjacent sibling selector
 
 
+
 Margin - Space  between two elements.
 Padding - Space inside elements (space between content & Border of the element.)
 Box-sizing :-  it is used for fixing the width & height of the elements.
