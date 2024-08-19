@@ -13,6 +13,7 @@
 
 //Data type - string, number, date, boolean, array, object null, undefined.
 
+
 // 1. string - set of Characters. It is a immutable data type
         // let name="Harry"
         // let name1='Harsh'
