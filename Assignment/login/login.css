@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin: 20px 50px;
+    display: block;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.mail{
+    margin: 20px 50px;
+    display: block;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.container{
+    width: 450px;
+    height: 600px;
+    /* border: 2px solid black; */
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+h3{
+    margin-top: 20px; 
+    text-align: center;
+}
+button{
+    margin: 10px 140px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+}
+u{
+    color: black;
+}
+.pas{
+    color: gray;
+    margin: 20px 140px 3px ;
+}
+.pass{
+    color: gray;
+    margin: 0px 143px;
+}
+.privacy{
+    text-align: center;
+    margin: 50px 50px;
+}
