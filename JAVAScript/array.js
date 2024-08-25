@@ -7,7 +7,6 @@ const prompt=require('prompt-sync')()
 // For find the lenght of array.
 // console.log(arr.length);
 
-
 // For add value in last indexing of array use push method.
 // arr.push("Delete");
 // console.log(arr);
