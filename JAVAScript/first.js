@@ -76,6 +76,7 @@
         // Comparison - == , === , != etc.
         // let a=11;let b="11";
         // console.log(a==b) //Gives Boolean Values.
+        // Ternary - condition ? True value : False Value.
 
 //Functions 
 
