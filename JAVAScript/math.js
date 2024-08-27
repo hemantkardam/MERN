@@ -6,3 +6,7 @@
 //  Math.round(value)
 //  Math.trunc(value)
 //
+console.log('Namaste duniya');
+const prompt = require('prompt-sync')()
+let a =prompt("Enter a value:");
+console.log('The value is :',a);
