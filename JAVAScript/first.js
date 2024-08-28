@@ -128,3 +128,49 @@
 // else{
 //         console.log("You are not eligible for voting.");
 // }
+
+// Sets - Unique kind of array. in which stored only unique values
+// const arr = new Set([1,2,3,1,2,3,4,5,4,5]);
+// console.log(arr);
+// arr.add(8);
+// arr.delete(8);
+// arr.entries(8);
+// arr.clear(8);
+// console.log(arr);
+
+// function fullname(city,state,country){
+//         return this.names+" "+city+" "+state+" "+country;
+// }
+// Objects
+// const student = {
+//         names:"Harry",
+//         Std : '12',
+//         Age : '21',
+//         fullname: function(){
+//                 return this.names;
+//         }
+// }
+// const student2 = {
+//         names:"Hemant",
+//         Std : '12',
+//         Age : '21'
+// }
+// const student3 = {
+//         names:"Harsh",
+//         Std : '12',
+//         Age : '21'
+// }
+
+// Borrow function method by call 
+// console.log(student.fullname.call(student2));
+// console.log(student.fullname.call(student3));
+// When function outside from the object :-  console.log(fullname.call(student2))
+// console.log(fullname.call(student2,"New-delhi,","Delhi,","India."));
+
+// Borrow function method by Apply 
+// console.log(fullname.apply(student2,["New-delhi,","Delhi,","India."]));
+
+// Borrow function method by Bind 
+// console.log(fullname.bind(student2,"New-delhi,","Delhi,","India."));
+// const binding = (fullname.bind(student2,"New-delhi,","Delhi,","India."));
+// console.log(binding());
