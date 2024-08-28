@@ -19,7 +19,6 @@
 // console.log(date.toUTCString());
 // console.log(date.toLocaleDateString());
 
-
 // console.log(date.getDate());
 // console.log(date.getMonth());
 // console.log(date.getFullYear());
