@@ -30,7 +30,6 @@ else if(a<=40 && a>32){
     console.log('You achieve a 3 Cgpa.');
 }
 
-
 else {
     console.log('You are Fail.');
 }
