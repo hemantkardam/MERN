@@ -14,6 +14,7 @@ let name2 = 'Hemant';
     // names.style.color = 'red';
 
     
+    
     // const head = document.createElement('h1');
     // console.log(head);
     // const txt = document.createTextNode("Hello duniya")
