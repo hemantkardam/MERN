@@ -19,18 +19,18 @@
 //     console.log(error);
 // })
 
-// let promiseCreate = new Promise ((resolve,reject)=>{
-//     setTimeout(()=>{
-//         let err = false;
-//         if(!err){
-//             resolve({name :"Harry" , Age : 21});
-//             // console.log({name :"Harry" , Age : 21});
-//         }else{
-//             reject('error');
-//             // console.log('error');
-//         }
-//     },3000)
-// })
+let promiseCreate = new Promise ((resolve,reject)=>{
+    setTimeout(()=>{
+        let err = false;
+        if(!err){
+            resolve({name :"Harry" , Age : 21});
+            // console.log({name :"Harry" , Age : 21});
+        }else{
+            reject('error');
+            // console.log('error');
+        }
+    },3000)
+})
 
 
 // promiseCreate.then((username)=>{
@@ -43,3 +43,12 @@
 // }).finally(()=>{
 //     console.log("run always");
 // })
+
+// async function consumed() {
+//     try{
+//         const response = await promiseCreate;
+//         console.log(response);
+//     }catch(error){
+//         console.log(error);
+//     }
+// }
