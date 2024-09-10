@@ -12,6 +12,5 @@
 //     console.log("You are not eligible for voting.");
 // }
 
-
 let a = prompt("Enter a no");
 console.log(a);
