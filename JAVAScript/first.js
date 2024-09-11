@@ -129,7 +129,6 @@
 //         console.log("You are not eligible for voting.");
 // }
 
-
 // Sets - Unique kind of array. in which stored only unique values
 // const arr = new Set([1,2,3,1,2,3,4,5,4,5]);
 // console.log(arr);
