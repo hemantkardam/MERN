@@ -25,8 +25,7 @@ const func = (a,b,c,opr)=>{
             console.log("wrong choice");
         }
     }
-    
-    
+
     else if(a>0.1){
         // switch(opr){
         //     case '+':console.log(b-c);break;
