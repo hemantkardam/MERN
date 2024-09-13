@@ -26,6 +26,7 @@ const func = (a,b,c,opr)=>{
         }
     }
     
+    
     else if(a>0.1){
         // switch(opr){
         //     case '+':console.log(b-c);break;
