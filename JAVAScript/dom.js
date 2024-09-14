@@ -1,9 +1,6 @@
 let nam ='Harry';
 let name2 = 'Hemant';
 
-
-
-
 // let nam ='Harry';
     // let name2 = 'Hemant';
     // document.getElementsByTagName('h1')[1].innerHTML = nam;
