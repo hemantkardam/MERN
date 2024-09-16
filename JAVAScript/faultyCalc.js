@@ -9,6 +9,7 @@ const func = (a,b,c,opr)=>{
         //     case '*':console.log(b*c);break;
         //     case '/':console.log(b/c);break;
         // }
+        
         if(opr == '+'){
            console.log(c+b);
         }
