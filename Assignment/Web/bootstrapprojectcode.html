@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <style>
         .container-fluid{
             padding: 0 !important;
@@ -17,43 +17,34 @@
     </style>
 </head>
 <body>
-   
- 
     <section id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./media/logo.svg" alt=""></a>
+              <a class="navbar-brand" href="#"><img src="./logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 fs-5">
-                  <li class="nav-item ms-2">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 fs-5 "> -->
+                <ul class="navbar-nav me-auto mb-2  mx-5 mb-lg-0 fs-5 d-flex ">
+                  <li class="nav-item mx-5 ">
+                    <a class="nav-link active" aria-current="page" href="./bootstrapprojectcode.html">Home</a>
                   </li>
-                  <li class="nav-item ms-2">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <li class="nav-item mx-5 ">
+                    <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
                   </li>
-                  <li class="nav-item ms-2">
-                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
                   </li>
-                  <li class="nav-item ms-2">
+                  <!-- <li class="nav-item ms-2">
                     <a class="nav-link active" aria-current="page" href="#">Teams</a>
+                  </li> -->
+                  <li class="nav-item mx-5">
+                    <!-- <a class="nav-link active" aria-current="page" href="./about.html">About</a> -->
+                    <a class="nav-link active" aria-current="page" href="./about.html">About</a>
                   </li>
-                  <li class="nav-item ms-2">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item ms-2">
-                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                  </li>
-               
-               
-           
                 </ul>
-           
-                 
-                  <button class="btn btn-primary fs-4 rounded-pill" type="submit">Get Started</button>
-               
+                  <!-- <button class="btn btn-primary fs-4 rounded-pill" type="submit">Get Started</button> -->    
               </div>
             </div>
           </nav>
@@ -71,21 +62,21 @@
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active" style="height: 400px;">
-                            <img src="./media/images.jpeg" class="d-block w-100" alt="...">
+                            <img src="./IMG-20231129-WA0008.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>First slide label</h5>
                               <p>Some representative placeholder content for the first slide.</p>
                             </div>
                           </div>
                           <div class="carousel-item " style="height: 400px;">
-                            <img src="./media/images.jpeg" class="d-block w-100" alt="...">
+                            <img src="./IMG-20231129-WA0009.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Second slide label</h5>
                               <p>Some representative placeholder content for the second slide.</p>
                             </div>
                           </div>
                           <div class="carousel-item" style="height: 400px;">
-                            <img src="./media/images.jpeg" class="d-block w-100" alt="...">
+                            <img src="./IMG-20231129-WA0013.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Third slide label</h5>
                               <p>Some representative placeholder content for the third slide.</p>
@@ -156,7 +147,7 @@
       <div class="container-fluid" style="height: 600px; background-color: rgb(205, 229, 229);">
         <div class="row">
           <div class="col-6 d-flex justify-content-center" >
-            <img src="./media/about-img.png" alt="" style="width: 400px;display: block;margin-top: 100px;">
+            <img src="./IMG-20231129-WA0007.jpg" alt="" style="width: 400px;display: block;margin-top: 100px;">
           </div>
           <div class="col-6">
             <div id="upper" style="margin-top: 100px;">
@@ -275,15 +266,15 @@
       <div class="row ms-4 mt-5">
         <div class="col-3">
           <div class="card" style="width: 18rem;">
-            <img src="./media/team-1.jpg" class="card-img-top" alt="...">
+            <img src="./IMG-20231129-WA0001.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold fs-3 text-center">Michael Smith</h5>
               <p class="card-text  fs-5 text-center">Product Designer</p>
               <div class="d-flex ms-4">
-                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src=".//IMG-20231129-WA0012.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0006.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0004.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0005.jpg" alt="" style="width: 50px;"></a>
               </div>
              
             </div>
@@ -291,15 +282,15 @@
         </div>
         <div class="col-3">
           <div class="card" style="width: 18rem;">
-            <img src="./media/team-4.jpg" class="card-img-top" alt="...">
+            <img src="./IMG-20231129-WA0002.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold fs-3 text-center">Michael Smith</h5>
               <p class="card-text  fs-5 text-center">Product Designer</p>
               <div class="d-flex ms-4">
-                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0012.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0006.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0004.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0005.jpg" alt="" style="width: 50px;"></a>
               </div>
              
             </div>
@@ -307,15 +298,15 @@
         </div>
         <div class="col-3">
           <div class="card" style="width: 18rem;">
-            <img src="./media/team-2.jpg" class="card-img-top" alt="...">
+            <img src="./IMG-20231129-WA0011.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold fs-3 text-center">Michael Smith</h5>
               <p class="card-text  fs-5 text-center">Product Designer</p>
               <div class="d-flex ms-4">
-                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0012.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0006.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0004.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0005.jpg" alt="" style="width: 50px;"></a>
               </div>
              
             </div>
@@ -323,17 +314,17 @@
         </div>
         <div class="col-3">
           <div class="card" style="width: 18rem;">
-            <img src="./media/team-3.jpg" class="card-img-top" alt="...">
+            <img src="./IMG-20231129-WA0011.jpg
+            " class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fw-bold fs-3 text-center">Michael Smith</h5>
               <p class="card-text  fs-5 text-center">Product Designer</p>
               <div class="d-flex ms-4">
-                <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
-                <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0012.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0006.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0004.jpg" alt="" style="width: 50px;"></a>
+                <a href=""><img src="./IMG-20231129-WA0005.jpg" alt="" style="width: 50px;"></a>
               </div>
-             
             </div>
           </div>
         </div>
@@ -347,7 +338,7 @@
         <div class="row ">
           <div class="col-3 p-5">
             <div>
-              <img src="./media/logo.svg" alt="no logo" class="mb-3">
+              <img src="./logo.svg" alt="no logo" class="mb-3">
  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi sapiente odit magnam ea temporibus eum libero alias minima sunt.</p>
             </div>
@@ -383,17 +374,17 @@
         <hr class="mx-5">
         <div id="lastDiv" class="d-flex justify-content-between mx-5">
           <div>
-            <a href=""><img src="./media/instagram-icon.png" style="width: 50px;" alt=""></a>
-            <a href=""><img src="./media/twitter-icon.png" style="width: 50px;" alt=""></a>
-            <a href=""><img src="./media/linkedin-icon.png"  style="width: 50px;"alt=""></a>
-            <a href=""><img src="./media/snapchat-icon.png" style="width: 50px;" alt=""></a>
+            <a href=""><img src="./IMG-20231129-WA0012.jpg" style="width: 50px;" alt=""></a>
+            <a href=""><img src="./IMG-20231129-WA0006.jpg" style="width: 50px;" alt=""></a>
+            <a href=""><img src="./IMG-20231129-WA0004.jpg"  style="width: 50px;"alt=""></a>
+            <a href=""><img src="./IMG-20231129-WA0005.jpg" style="width: 50px;" alt=""></a>
            </div>
           <p>Template by Swastik</p>
         </div>
       </div>
     </section>
    
-    <section id="footer">
+    <!-- <section id="footer">
       <div class="container-fluid">
         <footer class="row  py-5 mt-5 border-top ms-3">
           <div class="col-3 p-3">
@@ -441,16 +432,16 @@
         <hr class="mx-auto">
         <div id="copyright" class="d-flex justify-content-between">
           <div class="d-flex ms-4">
-            <a href=""><img src="./media/twitter-icon.png" alt="" style="width: 50px;"></a>
-            <a href=""><img src="./media/instagram-icon.png" alt="" style="width: 50px;"></a>
-            <a href=""><img src="./media/linkedin-icon.png" alt="" style="width: 50px;"></a>
-            <a href=""><img src="./media/snapchat-icon.png" alt="" style="width: 50px;"></a>
+            <a href=""><img src="./IMG-20231129-WA0012" alt="" style="width: 50px;"></a>
+            <a href=""><img src="./IMG-20231129-WA0006.jpg" alt="" style="width: 50px;"></a>
+            <a href=""><img src="./IMG-20231129-WA0004.jpg" alt="" style="width: 50px;"></a>
+            <a href=""><img src="./IMG-20231129-WA0005.jpg" alt="" style="width: 50px;"></a>
           </div>
           <p>Template by Swastik</p>
         </div>
       </div>
     </section>
- 
+  -->
  
  
  
