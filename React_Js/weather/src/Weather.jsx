@@ -11,7 +11,7 @@ const Weather = () => {
     if(cityName){
       fetch(url).then((res)=>{return res.json()}).then((data)=>{
         console.log(data);
-        setWeather(data)
+        setWeather(data);
       })
     }
   },[cityName])
