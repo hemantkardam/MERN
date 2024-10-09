@@ -12,7 +12,6 @@ if(ah<=1){
         console.log("Might be Rat.");
     }
 }
-
 else if(ah>1){
     console.log("Animal is Tall.");
     let neck = prompt('Enter animal neck is long or not : ');
