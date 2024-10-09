@@ -1,10 +1,12 @@
 import React from 'react'
 import Api from './Components/Api'
+import Form from './Components/Form'
 
 const App = () => {
   return (
     <div>
       <Api/>
+      <Form/>
     </div>
   )
 }
