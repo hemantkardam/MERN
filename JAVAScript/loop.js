@@ -5,7 +5,6 @@ const prompt = require('prompt-sync')()
     //     console.log(i,".","Harry");
     // }
 
-    
     const n =prompt('Enter a value for print table : ');
 
     for(let i=5 ;i<=50;i+=5){
