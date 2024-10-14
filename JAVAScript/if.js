@@ -5,6 +5,7 @@
 //     console.log("You are eligible for voting.");
 // }
 
+
 // else if(a<=0){
 //     console.log("First you born.");
 // }
