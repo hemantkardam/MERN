@@ -9,6 +9,7 @@
 // console.log(newnum);
 // console.log(typeof(newnum));
 
+
 // BigInt - 
 // let num =BigInt(234354656753254523);
 // console.log(num);
