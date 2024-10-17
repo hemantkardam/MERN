@@ -34,3 +34,5 @@ else if(a<=40 && a>32){
 else {
     console.log('You are Fail.');
 }
+
+
