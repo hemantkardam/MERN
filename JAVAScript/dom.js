@@ -12,9 +12,6 @@ let name2 = 'Hemant';
     // let names = document.querySelectorAll('h1 ')[3];
     // names.innerHTML = nam;
     // names.style.color = 'red';
-
-    
-    
     // const head = document.createElement('h1');
     // console.log(head);
     // const txt = document.createTextNode("Hello duniya")
