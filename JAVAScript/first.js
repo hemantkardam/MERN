@@ -115,9 +115,6 @@
 // console.log("Hello world!")
 // const prompt = require('prompt-sync')()
 
-
-
-
 // let a= prompt('Enter your age :');
 // let a=5;
 // if(a>=18){
