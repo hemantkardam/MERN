@@ -87,7 +87,3 @@ const prompt=require('prompt-sync')()
     //     return value;
     // })
     // console.log(a);
-    
-
-
-    
