@@ -1,8 +1,6 @@
 const prompt = require('prompt-sync')()
 let a = Math.random();
 
-
-
 const func = (a,b,c,opr)=>{
     if(a<0.1){
         // switch(opr){
